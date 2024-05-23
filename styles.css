@@ -1,0 +1,60 @@
+@font-face {
+    font-family: platform;
+    src: url(Platform-Bold-Trial.otf);
+  }
+
+body {
+    font-family: platform;
+    font-size: 18px;
+    background-color: #EBEDE7;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+    cursor: pointer;
+}
+
+#letters {
+    display: flex;
+    gap: 5px;
+}
+
+#letter-m, #letter-k {
+    display: flex;
+}
+
+#letter-m div, #letter-k div {
+    position: relative;
+    transition: 0.5s;
+    mix-blend-mode: multiply;
+}
+
+#m-second {
+    margin-left: -9px;
+}
+
+#m-third {
+    margin-left: -20px;
+}
+
+#m-fourth {
+    margin-left: -10px;
+}
+
+.k-arms{
+    display: flex;
+    flex-direction: column;
+    margin-left: -11px;
+}
+
+#k-third {
+    margin-top: -14px;
+}
